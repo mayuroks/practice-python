@@ -1,0 +1,12 @@
+#!/bin/env python2.7
+import sys
+x=[]
+num=0
+while True:
+	num=sys.stdin.readline()
+	if num=="42\n":
+		break
+	x.append(num)
+#x=map(int,x)
+for i in x:
+	print i.strip('\n')
