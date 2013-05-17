@@ -21,6 +21,7 @@ sum1,sum2,sum3 = 0,0,0
 res = []
 l1 = list(data)
 
+answer = []
 def knap_sack(list, thresh, start = 0):
         new_start = 0
         if thresh  < min(list):
@@ -32,21 +33,20 @@ def knap_sack(list, thresh, start = 0):
 
         # find new start point :: new_start = i
         for i in list:
-                if i <= (thresh - start) :
-        #               print('RECURSE',' THRESH : ',thresh," REMOVED : ",start," new_start : ",i," list1 : ",list)
-                        new_start = i
-                        break
-        return start + knap_sack(list, thresh - start, new_start)
-
+                if i <= (thresh - start):
+                	print('RECURSE',' THRESH : ',thresh," REMOVED : ",start," new_start : ",i," list1 : ",list)
+			new_start = i
+			answer.append(start + knap_sack(list, thresh - start, new_start))
+	print(append)
 #print('KNAP : ',knap_sack(l1, threshhold), "RESULT : ",res)
 
-answer = []
+
 for i in data:
         l1 = list(data)
         res=[]
         l2.append(i)
         #print('KNAP : ',knap_sack(l1, threshhold, i), "RESULT : ",res,"\n\n")
-        answer.append(knap_sack(l1, threshhold, i))
+        #answer.append(knap_sack(l1, threshhold, i))
 print(sum(data) - 2*max(answer))
 #print("LIST : ", l2)
 
