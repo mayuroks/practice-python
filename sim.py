@@ -23,15 +23,8 @@ track = network.get_track("rihanna", "umbrella")
 
 ########### MY CODE ###########
 my_list = track.get_similar()
-song = [str(my_list[i][0]) for i in range(len(my_list))] ##songs = lists of songs(string)
-print(str(my_list[10][0]), "yaya")
+#song = [my_list[i][0] for i in range(len(my_list))] ##songs = lists of songs(string)
+
+song = [(my_list[i][1], str(my_list[i][0]).split('-')) for i in range(len(my_list))]
+song = sorted(song)
 print(song[:10])
-
-
-
-
-
-
-
-
-
