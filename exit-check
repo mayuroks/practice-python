@@ -1,5 +1,0 @@
-#!/bin/python
-def myfund():
-	return 1
-
-
