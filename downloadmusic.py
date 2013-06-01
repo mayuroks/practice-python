@@ -8,7 +8,7 @@ for eg: download_music('rihanna - umbrella')"""
   na.remove('-')
   na = '_'.join(na)
   search_url = 'http://www.mrtzcmp3.net/' + na + '_1s.html'
-
+  print('NAME : ', search_url)
   hdr = {'user-agent':'EqxuinoX/2.5'}
 
   r = requests.get(search_url, headers = hdr)
@@ -29,7 +29,7 @@ for eg: download_music('rihanna - umbrella')"""
 
 #download_music('snow patrol - chasing cars')
 #download_music('Waiting Here for You - (Night Music Edit)')
-print(download_music.__doc__)
-
+#print(download_music.__doc__)
+#download_music('hoodie allen - hey now')
 
 
