@@ -1,1 +1,25 @@
 [2013-06-11 10:31:01] START
+[2013-06-11 21:30:16] EDIT test/controllers/default.py: -47
+[2013-06-11 21:31:44] EDIT test/controllers/default.py: 0
+[2013-06-11 21:41:23] EDIT test/views/default/index.html: -26
+[2013-06-11 21:42:00] EDIT test/views/default/index.html: 0
+[2013-06-11 21:51:20] EDIT test/views/default/index.html: 0
+[2013-06-11 21:52:47] EDIT test/views/default/index.html: 0
+[2013-06-11 22:04:14] EDIT test/controllers/default.py: 7
+[2013-06-11 22:08:32] CREATE first.html: 0
+[2013-06-11 22:09:34] DELETE test/views/first.html: -3
+[2013-06-11 22:09:54] CREATE default/first.html: 0
+[2013-06-11 22:11:31] EDIT test/views/default/first.html: 6
+[2013-06-11 22:14:53] EDIT test/views/default/first.html: -1
+[2013-06-11 22:16:34] CREATE default/second.html: 0
+[2013-06-11 22:19:03] EDIT test/views/default/second.html: 0
+[2013-06-11 22:19:52] EDIT test/views/default/second.html: -1
+[2013-06-11 22:20:32] EDIT test/views/default/second.html: 0
+[2013-06-11 22:21:07] EDIT test/views/default/second.html: 0
+[2013-06-11 22:21:41] EDIT test/views/default/second.html: 0
+[2013-06-11 22:21:58] EDIT test/views/default/second.html: 0
+[2013-06-11 22:23:32] EDIT test/views/default/second.html: 0
+[2013-06-11 22:24:17] EDIT test/views/default/second.html: 0
+[2013-06-11 22:50:48] EDIT test/views/default/first.html: 0
+[2013-06-11 22:52:59] EDIT test/controllers/default.py: 0
+[2013-06-11 22:54:17] EDIT test/views/default/second.html: 0

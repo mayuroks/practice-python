@@ -1,0 +1,6 @@
+<html>
+    <head><title>PAPA</title></head>
+   <body>
+      <h1>{{=message}}{{=response.toolbar()}}</h1>
+   </body>
+</html>
