@@ -3,7 +3,7 @@
     Supp? Whats ur name ?
 </h1>
 
-<form action="second">
+<form>
   <input name="visitor_name" />
   <input type="submit" />
 </form>

@@ -1,0 +1,6 @@
+{{extend 'layout.html'}}
+<h1>This is the default/sim.html template</h1>
+{{items = [1,2,3,4,5]}}
+<ul>
+{{for item in items:}}<li>{{=item}}</li>{{pass}}
+</ul>
