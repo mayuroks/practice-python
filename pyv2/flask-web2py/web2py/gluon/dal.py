@@ -7499,7 +7499,7 @@ class DAL(object):
         self.check_reserved
         ['common', 'postgres', 'mysql']
         self.check_reserved
-        ['all']
+        [None]
         """
         for backend in self.check_reserved:
             if name.upper() in self.RSK[backend]:
