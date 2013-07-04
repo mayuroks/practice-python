@@ -1,0 +1,10 @@
+[2013-06-13 20:27:12] START
+[2013-06-13 20:27:12] EDIT welcome/controllers/default.py: -44
+[2013-06-13 20:27:51] EDIT welcome/views/default/index.html: -28
+[2013-06-13 20:28:33] CREATE default/sim.html_: 0
+[2013-06-13 20:28:57] EDIT welcome/views/default/sim.html_: 5
+[2013-06-13 20:29:31] DELETE welcome/views/default/sim.html_: -5
+[2013-06-13 20:29:52] CREATE default/sim.html: 0
+[2013-06-13 20:30:04] EDIT welcome/views/default/sim.html: 2
+[2013-06-13 20:30:45] CREATE sim.py: 0
+[2013-06-13 20:31:04] EDIT welcome/modules/sim.py: 28
