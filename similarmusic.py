@@ -9,8 +9,8 @@ def similar_search(artist, song):
   API_SECRET = "063d322566d3a8bcbd48ac160aa5097a"
 
   # In order to perform a write operation you need to authenticate yourself
-  username = "mayuroks"
-  password_hash = pylast.md5("hydrofuran")
+  username = "XXXXX"
+  password_hash = pylast.md5("XXXXX")
 
   network = pylast.LastFMNetwork(api_key = API_KEY, api_secret = API_SECRET, username = username, password_hash = password_hash)
 
